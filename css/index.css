@@ -1,0 +1,63 @@
+/* ================ Nav ================== */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  transition: all 0.5s ease;
+}
+/* control of hamburger icon style omsa */
+#header .navbar-toggler i {
+  font-size: 30px;
+  color: var(--fncolor);
+  transition: all 0.5s ease-out;
+}
+/* default hide hamburger icon will appear just in tablet and mobile mode omsa */
+#header .navbar-toggler {
+  display: none;
+}
+
+#header .menu-bar .menu-items,
+#header .menu-social .social-items,
+#header .menu-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header .menu-bar .menu-items li {
+  margin: 0 15px;
+}
+
+#header .menu-social .social-items li {
+  margin: 0 7px;
+}
+#header .menu-bar .menu-items li a,
+#header .menu-social span {
+  font-size: 18px;
+  font-weight: 600;
+}
+#header .menu-bar .menu-items li a {
+  color: var(--blackColor);
+  transition: all 0.5s ease;
+}
+#header .menu-social li a {
+  color: var(--grayColor);
+  transition: all 0.5s ease;
+}
+#header .menu-bar .menu-items li a:hover,
+#header .menu-social li a:hover {
+  color: var(--primary);
+}
+#header .menu-social span {
+  color: var(--grayColor);
+  margin-right: 10px;
+}
+
+/* ================ Hero ================== */
+
+/* ============== Tablet Responsive ================ */
+
+/* ============== Mobile Responsive ================ */ ;

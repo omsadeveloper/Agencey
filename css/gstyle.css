@@ -6,7 +6,11 @@
 }
 :root {
   --primary: #4f47e4;
+  --secondary: #0067f4;
+  --third: #646ee5;
+  --white: #ffffff;
   --fncolor: #121212;
+  --fncolor2: #1d1d1d;
   --blackColor: #000;
   --grayColor: #6c6c6c;
 }

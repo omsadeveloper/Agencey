@@ -138,7 +138,6 @@
   font-size: 14px;
 }
 #hero .hero-btn li a.main-btn {
-  background-color: var(--white);
   border-radius: 50px;
   line-height: 50px;
   overflow: hidden;
@@ -160,10 +159,14 @@
   z-index: -1;
   transition: all 0.3s ease;
   background-position: right center;
+  border: 0;
 }
 #hero .hero-btn .btn-one:hover::before {
   background-image: linear-gradient(to left, #535cf1, #a1474e);
   background-position: left center;
+}
+#hero .hero-btn .btn-two {
+  background-color: var(--white);
 }
 #hero .hero-btn .btn-two:hover {
   box-shadow: 0 3px 25px rgba(0, 0, 0, 0.16);

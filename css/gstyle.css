@@ -8,6 +8,7 @@
   --primary: #4f47e4;
   --secondary: #0067f4;
   --third: #646ee5;
+  --fourth: #535cf1;
   --white: #ffffff;
   --fncolor: #121212;
   --fncolor2: #1d1d1d;
@@ -27,11 +28,18 @@ a {
 li {
   list-style: none;
 }
+h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  line-height: 55px;
+  color: #121212;
+  font-weight: 600;
+}
 h3 {
   font-size: 44px;
   line-height: 55px;
   color: #121212;
-  font-family: 600;
+  font-weight: 600;
 }
 h6 {
   font-size: 20px;

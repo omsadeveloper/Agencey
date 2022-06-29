@@ -1,4 +1,45 @@
-/* ================ Service ================== */
+/* ================ Services ================== */
+#service {
+  margin: 7rem 0;
+}
+#service .service-info {
+  text-align: center;
+}
+#service .service-info h6 {
+  margin: 1rem 0 4rem 0;
+}
+#service .service-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#service .service-box {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  flex-wrap: wrap;
+}
+#service .service-box .box-item {
+  width: 50%;
+  margin-bottom: 3rem;
+}
+#service .item-icon {
+  font-size: 3rem;
+  color: var(--fourth);
+}
+#service .box-item h4 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+#service .service-img {
+  width: 40%;
+}
+#service .service-img img {
+  width: 100%;
+}
 
 /* ============== Tablet Responsive ================ */
 

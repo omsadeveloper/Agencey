@@ -14,11 +14,29 @@
   --fncolor2: #1d1d1d;
   --blackColor: #000;
   --grayColor: #6c6c6c;
+  --grayColor2: #ecf0f1;
 }
-.container {
+/* .container {
   margin: 0 auto;
   padding: 0 6.5rem;
+} */
+
+.btn-normal {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  line-height: 48px;
+  padding: 0 3rem;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  position: relative;
+  transition: all 0.3s ease-out 0s;
+  color: var(--fncolor2);
+  margin: 1rem;
+  border-radius: 50px;
 }
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -46,4 +64,78 @@ h6 {
   line-height: 32px;
   color: #6c6c6c;
   font-weight: normal;
+}
+/*padding top and bottom*/
+.tb-p-10 {
+  padding: 10px 0;
+}
+.tb-p-15 {
+  padding: 15px 0;
+}
+.tb-p-20 {
+  padding: 20px 0;
+}
+.tb-p-25 {
+  padding: 25px 0;
+}
+.tb-p-30 {
+  padding: 30px 0;
+}
+.tb-p-40 {
+  padding: 40px 0;
+}
+.tb-p-50 {
+  padding: 50px 0;
+}
+.tb-p-60 {
+  padding: 60px 0;
+}
+.tb-p-70 {
+  padding: 70px 0;
+}
+.tb-p-80 {
+  padding: 80px 0;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.txt-container {
+  text-align: center;
+}
+/* media query container */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  /* .container {
+    width: 560px;
+  } */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    width: 1280px;
+  }
 }

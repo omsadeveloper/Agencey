@@ -1,5 +1,102 @@
 /* ================ Pricing ================== */
+#pricing {
+  padding-top: 6rem;
+}
+#pricing h6 {
+  margin: 1rem 0 4rem 0;
+}
+#pricing .price-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+#pricing .price-box {
+  width: 355px;
+  height: 100%;
+  border: 1px solid var(--fourth);
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.6s ease;
+}
 
+#pricing .price-type h3 {
+  font-weight: 300;
+  background-color: var(--grayColor2);
+  padding: 40px 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  transition: all 0.6s ease;
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}
+
+#pricing .price-box:hover h3 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background: linear-gradient(to right, #535cf1, #a147e4);
+  background-position: right center;
+  color: var(--white);
+}
+#pricing .price-box:hover .btn-normal {
+  border: 1px solid transparent;
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.16);
+  background-image: linear-gradient(to left, #535cf1, #a147e4);
+  background-position: left center;
+  color: var(--white);
+}
+
+#pricing .price-currency {
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+#pricing .price-currency .sign {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+#pricing .price-currency .currency {
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  line-height: 60px;
+  padding: 0;
+  vertical-align: middle;
+}
+#pricing .price-currency .sent {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 400;
+  vertical-align: bottom;
+  letter-spacing: 3px;
+}
+#pricing .price-currency .month {
+  font-size: 18px;
+  font-weight: 400;
+  vertical-align: bottom;
+  letter-spacing: 3px;
+}
+#pricing .price-box ul li {
+  padding: 18px 0;
+  border-bottom: 1px solid #ccc;
+  color: #7f8c8d;
+}
+#pricing .price-box ul li i {
+  padding-right: 5px;
+  color: #535cf1;
+}
+#pricing .standard h3 {
+  background: linear-gradient(to right, #535cf1, #a147e4);
+  color: var(--white);
+}
+#pricing .standard .btn-normal {
+  border: 1px solid transparent;
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.16);
+  background-image: linear-gradient(to left, #535cf1, #a147e4);
+  background-position: left center;
+  color: var(--white);
+}
 /* ============== Tablet Responsive ================ */
 
 /* ============== Mobile Responsive ================ */

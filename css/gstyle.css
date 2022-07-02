@@ -65,6 +65,10 @@ h6 {
   color: #6c6c6c;
   font-weight: normal;
 }
+/* margin bottom */
+.mb-10 {
+  margin-bottom: 10rem;
+}
 /*padding top and bottom*/
 .tb-p-10 {
   padding: 10px 0;

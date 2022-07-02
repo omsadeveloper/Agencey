@@ -1,5 +1,63 @@
 /* ================ contact ================== */
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#contact h6 {
+  margin: 1rem 0 4rem 0;
+}
+#contact form {
+  width: 70%;
+}
+#contact form .first-row,
+#contact form .second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0;
+}
 
+#contact form .first-row input,
+#contact form .second-row input {
+  width: 47%;
+  border: 1px solid #cbced1;
+  margin: 25px 0;
+  padding: 0 25px;
+  outline: none;
+  height: 56px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#contact form textarea {
+  width: 100%;
+  border: 1px solid #cbced1;
+  margin: 25px 0;
+  padding: 0 25px;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+  padding-top: 15px;
+}
+#contact form .submit-btn button {
+  background-image: linear-gradient(to right, #535cf1, #a147e4);
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+  /* margin-left: 8px; */
+  color: var(--white);
+  font-size: 18px;
+  font-weight: normal;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+#contact form .submit-btn button:hover {
+  background-image: linear-gradient(to left, #535cf1, #a147e4);
+}
 /* ============== Tablet Responsive ================ */
 
 /* ============== Mobile Responsive ================ */

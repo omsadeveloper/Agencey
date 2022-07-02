@@ -1,0 +1,59 @@
+/* ================ subscribe ================== */
+#subscribe {
+  padding-top: 6rem;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #910afa),
+    url(../assets/images/2.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#subscribe .subscribe-details {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#subscribe .subscribe-details h2,
+#subscribe .subscribe-details p {
+  color: var(--white);
+}
+#subscribe .subscribe-details p {
+  font-size: 18px;
+  padding: 1.3rem 0;
+}
+#subscribe .subscribe-news {
+  max-width: 450px;
+  margin: auto;
+  background-color: var(--white);
+  padding: 12px 0 12px 15px;
+  border-radius: 50px;
+  position: relative;
+}
+#subscribe .subscribe-news i {
+  color: var(--fourth);
+  padding-right: 10px;
+  font-size: 18px;
+}
+#subscribe .subscribe-news input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+#subscribe .subscribe-news button {
+  background-image: linear-gradient(to right, #535cf1, #a147e4);
+  border: none;
+  outline: none;
+  padding: 12px 15px;
+  margin-left: 3rem;
+  color: var(--white);
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+/* ============== Tablet Responsive ================ */
+
+/* ============== Mobile Responsive ================ */

@@ -1,6 +1,6 @@
 /* ================ Pricing ================== */
 #pricing {
-  padding-top: 6rem;
+  padding: 6rem 0;
 }
 #pricing h6 {
   margin: 1rem 0 4rem 0;
@@ -34,7 +34,7 @@
 #pricing .price-box:hover h3 {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background: linear-gradient(to right, #535cf1, #a147e4);
+  background-image: linear-gradient(to right, #535cf1, #a147e4);
   background-position: right center;
   color: var(--white);
 }

@@ -9,12 +9,15 @@
   --secondary: #0067f4;
   --third: #646ee5;
   --fourth: #535cf1;
+  --fifth: #2b354f;
   --white: #ffffff;
   --fncolor: #121212;
   --fncolor2: #1d1d1d;
   --blackColor: #000;
   --grayColor: #6c6c6c;
   --grayColor2: #ecf0f1;
+  --grayColor3: #f4f6f7;
+  --grayColor4: #e2e2e2;
 }
 /* .container {
   margin: 0 auto;

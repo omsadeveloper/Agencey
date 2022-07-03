@@ -177,6 +177,117 @@
 #hero .hero-btn .btn-two:hover {
   box-shadow: 0 3px 25px rgba(0, 0, 0, 0.16);
 }
+
+/* ================ Footer ================== */
+#footer {
+  background-color: var(--grayColor3);
+}
+#footer .footer-container {
+  padding: 4rem 7rem 2rem 7rem;
+}
+#footer .first-row,
+#footer .menu-social ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#footer .first-row,
+#footer .second-row {
+  margin-bottom: 1.3rem;
+}
+#footer .menu-social {
+  /* margin-left: 10px; */
+}
+#footer .menu-social a {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--grayColor);
+  transition: all 0.5s ease;
+  padding-right: 15px;
+}
+#footer .menu-social a:hover {
+  color: var(--primary);
+}
+#footer .second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer .second-row h6 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--grayColor);
+  line-height: 18px;
+  padding-bottom: 20px;
+}
+#footer .second-row li {
+  padding-bottom: 12px;
+}
+#footer .second-row li a {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+  color: var(--fncolor);
+  transition: all 0.5s ease;
+}
+#footer .second-row li a:hover {
+  color: var(--primary);
+}
+#footer .footer-col4 h6 {
+  margin-bottom: 8px;
+}
+#footer .second-row .newsletter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+  position: relative;
+}
+#footer .second-row .newsletter input {
+  padding: 0 25px;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: rgba(33, 33, 33, 0.12);
+}
+#footer .second-row .newsletter input::placeholder {
+  opacity: 1;
+  color: var(--grayColor);
+}
+#footer .second-row .newsletter button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  border: 0;
+  outline: 0;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: var(--fncolor);
+  background-color: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+#footer .second-row .newsletter button:hover {
+  background-color: var(--fifth);
+  color: var(--white);
+}
+#footer .copyright {
+  width: 100%;
+  padding: 23px 0;
+  background-color: var(--fifth);
+}
+#footer .copyright p {
+  font-size: 16px;
+  color: var(--white);
+  line-height: 18px;
+}
 /* ============== Tablet Responsive ================ */
 
 /* ============== Mobile Responsive ================ */ ;

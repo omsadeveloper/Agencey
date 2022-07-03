@@ -2,6 +2,7 @@
 #header {
   position: relative;
 }
+
 #header .header-holder {
   position: fixed;
   top: 0;
@@ -17,6 +18,12 @@
   background-color: transparent;
   transition: all 0.3s ease;
   z-index: 9999;
+}
+/* add this class to header-holder when scrolled more thane 120px omsa */
+.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+  box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.3);
 }
 /* control of hamburger icon style omsa */
 #header .navbar-toggler i {

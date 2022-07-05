@@ -4,6 +4,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+/* this class is ver important when get head of any section in nav bar 
+will get head of section instead of center of section omsa */
+.offset::before {
+  display: block;
+  content: "";
+  height: 10rem;
+  margin-top: -2rem;
+}
 :root {
   --primary: #4f47e4;
   --secondary: #0067f4;

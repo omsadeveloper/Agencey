@@ -7,7 +7,7 @@
 html {
   scroll-behavior: smooth;
 }
-/* this class is ver important when get head of any section in nav bar 
+/* this class is very important when get head of any section in nav bar 
 will get head of section instead of center of section omsa */
 .offset::before {
   display: block;
@@ -121,6 +121,7 @@ h6 {
 .txt-container {
   text-align: center;
 }
+
 /* media query container */
 
 /* Small devices (landscape phones, 576px and up) */

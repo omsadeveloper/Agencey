@@ -14,4 +14,21 @@ window.onscroll = function () {
   }
 };
 
-/* ================  ================== */
+/* ================ show navbar on tablet and mobile ================== */
+const bar = document.getElementById("bar");
+const nav = document.getElementById("rs-nav");
+var toggle = document.getElementsByClassName("toggle");
+
+if (bar) {
+  bar.addEventListener("click", () => {
+    if (toggle[0].style.display != "none") {
+      nav.classList.remove("hide-nav");
+      toggle[0].style.display = "none";
+      toggle[1].style.display = "inline-block";
+    } else {
+      nav.classList.add("hide-nav");
+      toggle[0].style.display = "inline-block";
+      toggle[1].style.display = "none";
+    }
+  });
+}
